@@ -13,6 +13,10 @@ h2 + p {
     margin-bottom: 100px;
 }
 
+span {
+    color: green;
+}
+
 .btn {
     border-radius: 50px;
     padding: 10px 15px;
@@ -244,4 +248,25 @@ nav {
 .offer a i {
     font-size: 20px;
     margin-left: 10px;
+}
+
+/* About */
+
+.about img {
+    width: 100%;
+    height: 100%;
+}
+
+.about {
+    padding: 0;
+    background: #157347;
+    color: white;
+}
+
+.about .wrapper {
+    padding: 160px;
+}
+
+.about span {
+    color: white;
 }
