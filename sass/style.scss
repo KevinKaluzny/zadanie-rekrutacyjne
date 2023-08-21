@@ -1,11 +1,25 @@
+/* Global */
+
+.container {
+    max-width: 1500px;
+}
+
 /* Navbar */
+
+nav {
+    height: 80px;
+}
+
+.navbar-brand {
+    font-size: 26px;
+}
 
 .navbar-collapse {
     flex-grow: 0;
 }
 
 .nav-item {
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 .dropdown-toggle::after {
