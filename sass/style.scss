@@ -277,8 +277,14 @@ nav {
     background: #fad390;
 }
 
-.realizations .wrapper {
+.realizations .wrapper:first-of-type {
     transform: translateX(100px);
+}
+
+.realizations .wrapper:last-of-type {
+    height: 1500px;
+    overflow: hidden;
+    position: relative;
 }
 
 * { box-sizing: border-box; }
@@ -293,6 +299,7 @@ body { font-family: sans-serif; }
 .grid {
   background: #fad390;
   width: 100%;
+position: absolute;
 }
 
 /* clear fix */
@@ -319,10 +326,47 @@ body { font-family: sans-serif; }
   max-width: 100%;
 }
 
+.realizations button {
+    display: flex;
+    margin: auto;
+    transform: translateY(-100px);
+}
+
 /* Contact */
 
 .contact .box {
     background: #157347;
     padding: 100px;
     color: white;
+}
+
+/* Footer */
+
+footer {
+    background: black;
+    padding: 108px 0;
+}
+
+footer a, footer p, footer span {
+    color: white;
+}
+
+footer hr {
+    border: 1px solid white;
+}
+
+footer .container > * {
+    margin-bottom: 100px;
+}
+
+footer .container .row:last-of-type {
+    margin: 0;
+}
+
+footer .special {
+    display: inline-block;
+}
+
+footer .right {
+    text-align: right;
 }
