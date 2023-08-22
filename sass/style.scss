@@ -1,10 +1,23 @@
+/* Variables */
+
+$font-logo: 'Libre Franklin', sans-serif;
+$font-header: 'Montserrat', sans-serif;
+$font-text: 'Inter', sans-serif;
+
 /* Global */
+
+body {
+    font-family: $font-text !important;
+    font-size: 20px;
+}
 
 section {
     padding: 108px 0;
 }
 
 h2 {
+    font-family: $font-header;
+    font-weight: 500 !important;
     font-size: 50px;
     margin-bottom: 40px;
 }
@@ -13,13 +26,13 @@ h2 + p {
     margin-bottom: 100px;
 }
 
-span {
+.green {
     color: green;
 }
 
 .btn {
     border-radius: 50px;
-    padding: 10px 15px;
+    padding: 12px 20px;
     margin-right: 20px;
 }
 
@@ -38,6 +51,11 @@ span {
     border-color: #157347;
 }
 
+.btn i, a i {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
 .container {
     max-width: 1500px;
 }
@@ -49,6 +67,7 @@ nav {
 }
 
 .navbar-brand {
+    font-family: $font-logo;
     font-size: 26px;
 }
 
@@ -186,12 +205,12 @@ nav {
 }
 
 .ss-controls-btn {
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
   line-height: 2.5rem;
   border: none;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 35px;
   background: white;
 }
 
@@ -243,11 +262,6 @@ nav {
 
 .offer h5 {
     font-size: 30px;
-}
-
-.offer a i {
-    font-size: 20px;
-    margin-left: 10px;
 }
 
 /* About */
