@@ -270,3 +270,59 @@ nav {
 .about span {
     color: white;
 }
+
+/* Realizations */
+
+.realizations {
+    background: #fad390;
+}
+
+.realizations .wrapper {
+    transform: translateX(100px);
+}
+
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+  background: #fad390;
+  width: 100%;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 30%;
+}
+
+.grid-item {
+  // float: left;
+  padding: 20px;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Contact */
+
+.contact .box {
+    background: #157347;
+    padding: 100px;
+    color: white;
+}
